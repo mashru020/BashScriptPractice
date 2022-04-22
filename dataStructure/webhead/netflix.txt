@@ -1,14 +1,14 @@
 HTTP/1.1 301 Moved Permanently
 Location: https://www.netflix.com/
 Content-Length: 0
-Via: 1.1 i-06879c2ae11736f92 (us-west-2)
+Via: 1.1 i-0ef877e7ab77fc297 (us-west-2)
 Server: nq_website_nonmember-prod-release UNKNOWN
 X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
 X-Content-Type-Options: nosniff
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 X-Originating-URL: http://www.netflix.com/
-Set-Cookie: nfvdid=BQFmAAEBENyUu3jCVBZHGxsGj7DG15lAjdCP0zJ7hfdWOQJu1yrEgp_4L3uloeephsrKcgbAANv3ddw1VzoQXZOWM4Ad4Vm8pV9y757giPH-VW367g8Lew%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+Set-Cookie: nfvdid=BQFmAAEBELRTPgu3FGTRTTpjT-dxq8dA3L3jKEQ1pddNheDBUvDoqY9JLdgpWiBwfp7orQSya4VlHbdgkjNffWoADDfJ56lCITGjCodfSTB9Mk8s-fUsfg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
 X-Netflix.nfstatus: 1_21
-Set-Cookie: memclid=57d26ddd-925c-4d5e-99d1-68c08a92618b; Max-Age=31536000; Expires=Sat, 22 Apr 2023 05:40:14 GMT; Path=/; Domain=.netflix.com
-X-Netflix.proxy.execution-time: 2
+Set-Cookie: memclid=4d385a98-de3f-4f00-94c0-1109b0824eba; Max-Age=31536000; Expires=Sat, 22 Apr 2023 05:42:53 GMT; Path=/; Domain=.netflix.com
+X-Netflix.proxy.execution-time: 3
 
