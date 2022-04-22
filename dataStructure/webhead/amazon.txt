@@ -1,12 +1,7 @@
-HTTP/1.1 301 Moved Permanently
-Server: CloudFront
-Date: Fri, 22 Apr 2022 05:42:53 GMT
-Content-Type: text/html
-Content-Length: 183
-Connection: keep-alive
+HTTP/1.1 307 Temporary Redirect
+Server: AkamaiGHost
+Content-Length: 0
 Location: https://www.amazon.com/
-X-Cache: Redirect from cloudfront
-Via: 1.1 0da14962afa287e5ba55c7d30c902392.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: SIN2-C1
-X-Amz-Cf-Id: c5a_7Qez2iXBcjakeGX1A1TIWhhmCgohxeW_xweyo5sVSJYqcM_y9g==
+Date: Fri, 22 Apr 2022 05:57:43 GMT
+Connection: keep-alive
 
