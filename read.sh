@@ -14,12 +14,12 @@
 #read -p "Input your town you are from : " town
 
 # -t for timeout in sec
-read -t 5 -p "Input your first name : " name
-read -t 5 -p "Input your age : " age
-read -t 5 -p "Input your town you are from : " town
+read -t 5 -r -p "Input your first name : " name
+read -t 5 -r -p "Input your age : " age
+read -t 5 -r -p "Input your town you are from : " town
 
 # -s for secret input
-read -s -t 10 -p "Enter a secret text : " secret
+read -s -t 10 -r -p "Enter a secret text : "  secret
 
 
 echo "My name is $name"
