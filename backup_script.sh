@@ -10,9 +10,14 @@
 #Usage		:
 #backup_script
 
-
-mkdir ~/Backup
+echo "hello $USER"
+echo "I will now back up your Documents directory, $HOME/Documents"
+currentDir=$(pwd)
 cd ~/Documents
-tar -czf ~/Backup/doc_backup"$(date +%d-%m-%y_%h-%m)".tar.gz *.* 
 
-exit
+echo "You are running this script from $currentDir"
+echo "Therefore, I will save the backup in $currentDir"
+tar -czf $currentDir/my_backup"$(date +%d-%m-%y_%H-%M)".tar.gz *.* 
+
+echo "Backup Completed Successfully."
+exit 0
