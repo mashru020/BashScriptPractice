@@ -2,7 +2,7 @@
 
 # $#-numbre of parameter and $0-script name
 if [[ $# -ne 2 ]]; then
-	echo "You didnot enter exactly 2 parameters"
+	echo "You did not enter exactly 2 parameters"
 	echo "Usage: $0 <file1> <file2>"
 	exit 1
 fi
